@@ -1,47 +1,63 @@
 {
-    "logs": [{
-            "message": "Changed network card in server 007",
-            "attention": false,
-            "tech": "Sam Smith",
-            "date": "2019-05-31T15:46:10.179Z",
-            "id": 1
-        },
-        {
-            "id": 2,
-            "message": "Fixed hard drive on workstation 002",
-            "attention": false,
-            "tech": "John Doe",
-            "date": "2019-05-31T16:18:04.245Z"
-        },
-        {
-            "message": "1122 wireless down",
-            "attention": true,
-            "tech": "Sara Wilson",
-            "date": "2019-05-31T15:46:48.690Z",
-            "id": 3
-        },
-        {
-            "id": 4,
-            "message": "Workstation 026 is up and running",
-            "attention": false,
-            "tech": "Sara Wilson",
-            "date": "2019-05-31T19:57:35.544Z"
-        }
-    ],
-    "techs": [{
-            "id": 1,
-            "firstName": "John",
-            "lastName": "Doe"
-        },
-        {
-            "id": 2,
-            "firstName": "Sam",
-            "lastName": "Smith"
-        },
-        {
-            "id": 3,
-            "firstName": "Sara",
-            "lastName": "Wilson"
-        }
-    ]
+  "logs": [
+    {
+      "id": 1,
+      "message": "Changed network card in server 007",
+      "tech": "Sam Smith",
+      "attention": true,
+      "date": "2020-04-16T13:42:05.551Z"
+    },
+    {
+      "id": 2,
+      "message": "This need attention",
+      "tech": "Sam Smith",
+      "attention": true,
+      "date": "2020-04-16T11:19:49.274Z"
+    },
+    {
+      "id": 3,
+      "message": "1122 wireless fixed",
+      "tech": "John Doe",
+      "attention": false,
+      "date": "2020-04-16T11:15:27.301Z"
+    },
+    {
+      "id": 4,
+      "message": "Workstation 026 is up and running",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2019-05-31T19:57:35.544Z"
+    },
+    {
+      "message": "new log",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2020-04-16T10:53:54.954Z",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "message": "Log Message just for checking",
+      "tech": "Sam Smith",
+      "attention": false,
+      "date": "2020-04-16T14:27:39.613Z"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    }
+  ]
 }
